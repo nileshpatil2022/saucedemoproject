@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sauceDemo.TestPackage.TC04VerifyallAddToCartButtonFunctionality">
+      <class name="com.sauceDemo.TestPackage.TC01VerifyLoginFunctionality">
         <methods>
-          <include name="allProductAddToCart"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="verifyLogin"/>
         </methods>
-      </class> <!-- com.sauceDemo.TestPackage.TC04VerifyallAddToCartButtonFunctionality -->
+      </class> <!-- com.sauceDemo.TestPackage.TC01VerifyLoginFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

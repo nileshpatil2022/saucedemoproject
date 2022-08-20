@@ -1,95 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-07T21:49:02 IST" name="Suite" finished-at="2022-08-07T21:49:25 IST" duration-ms="23085">
+  <suite started-at="2022-08-14T13:46:35 IST" name="Default suite" finished-at="2022-08-14T13:46:35 IST" duration-ms="39">
     <groups>
     </groups>
-    <test started-at="2022-08-07T21:49:02 IST" name="Test" finished-at="2022-08-07T21:49:25 IST" duration-ms="23085">
-      <class name="com.sauceDemo.TestPackage.TC03VerifyBagProductAddToCartFunctionality">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.sauceDemo.TestPackage.TC03VerifyBagProductAddToCartFunctionality@793be5ca]" started-at="2022-08-07T21:49:14 IST" name="setUp" finished-at="2022-08-07T21:49:20 IST" duration-ms="5676" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="bagProductAddToCart()[pri:0, instance:com.sauceDemo.TestPackage.TC03VerifyBagProductAddToCartFunctionality@793be5ca]" started-at="2022-08-07T21:49:20 IST" name="bagProductAddToCart" finished-at="2022-08-07T21:49:20 IST" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bagProductAddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestPackage.TC03VerifyBagProductAddToCartFunctionality@793be5ca]" started-at="2022-08-07T21:49:20 IST" name="tearDown" finished-at="2022-08-07T21:49:20 IST" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sauceDemo.TestPackage.TC03VerifyBagProductAddToCartFunctionality -->
-      <class name="com.sauceDemo.TestPackage.TC02VerifyLogoutFuctinality">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.sauceDemo.TestPackage.TC02VerifyLogoutFuctinality@69997e9d]" started-at="2022-08-07T21:49:08 IST" name="setUp" finished-at="2022-08-07T21:49:14 IST" duration-ms="5545" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLogOut()[pri:0, instance:com.sauceDemo.TestPackage.TC02VerifyLogoutFuctinality@69997e9d]" started-at="2022-08-07T21:49:14 IST" name="verifyLogOut" finished-at="2022-08-07T21:49:14 IST" duration-ms="206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestPackage.TC02VerifyLogoutFuctinality@69997e9d]" started-at="2022-08-07T21:49:14 IST" name="tearDown" finished-at="2022-08-07T21:49:14 IST" duration-ms="146" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sauceDemo.TestPackage.TC02VerifyLogoutFuctinality -->
-      <class name="com.sauceDemo.TestPackage.TC04VerifyallAddToCartButtonFunctionality">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.sauceDemo.TestPackage.TC04VerifyallAddToCartButtonFunctionality@2df9b86]" started-at="2022-08-07T21:49:20 IST" name="setUp" finished-at="2022-08-07T21:49:25 IST" duration-ms="4837" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allProductAddToCart()[pri:0, instance:com.sauceDemo.TestPackage.TC04VerifyallAddToCartButtonFunctionality@2df9b86]" started-at="2022-08-07T21:49:25 IST" name="allProductAddToCart" finished-at="2022-08-07T21:49:25 IST" duration-ms="275" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allProductAddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestPackage.TC04VerifyallAddToCartButtonFunctionality@2df9b86]" started-at="2022-08-07T21:49:25 IST" name="tearDown" finished-at="2022-08-07T21:49:25 IST" duration-ms="120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sauceDemo.TestPackage.TC04VerifyallAddToCartButtonFunctionality -->
+    <test started-at="2022-08-14T13:46:35 IST" name="Default test" finished-at="2022-08-14T13:46:35 IST" duration-ms="39">
       <class name="com.sauceDemo.TestPackage.TC01VerifyLoginFunctionality">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.sauceDemo.TestPackage.TC01VerifyLoginFunctionality@3d1cfad4]" started-at="2022-08-07T21:49:02 IST" name="setUp" finished-at="2022-08-07T21:49:08 IST" duration-ms="5856" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.sauceDemo.TestPackage.TC01VerifyLoginFunctionality@10959ece]" started-at="2022-08-14T13:46:35 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1660464995972" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse--261428626\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse--261428626\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.sauceDemo.TestPackage.TC01VerifyLoginFunctionality@3d1cfad4]" started-at="2022-08-07T21:49:08 IST" name="verifyLogin" finished-at="2022-08-07T21:49:08 IST" duration-ms="13" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:com.sauceDemo.TestPackage.TC01VerifyLoginFunctionality@10959ece]" started-at="2022-08-14T13:46:35 IST" name="verifyLogin" finished-at="2022-08-14T13:46:35 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse--261428626\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse--261428626\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestPackage.TC01VerifyLoginFunctionality@3d1cfad4]" started-at="2022-08-07T21:49:08 IST" name="tearDown" finished-at="2022-08-07T21:49:08 IST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestPackage.TC01VerifyLoginFunctionality@10959ece]" started-at="2022-08-14T13:46:35 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1660464995984" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.sauceDemo.TestPackage.TC01VerifyLoginFunctionality -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
